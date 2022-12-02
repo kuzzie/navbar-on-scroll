@@ -11,4 +11,85 @@ body {
 }
 
 body {
+  font-family: sans-serif;
+  background-image: url("./images/background.jpg");
+  background-attachment: fixed;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header {
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fixed-nav {
+  position: fixed;
+  width: 100%;
+  max-width: inherit;
+  background-color: white;
+  color: black;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+
+.navbar ul li {
+  font-size: 1.2rem;
+}
+
+.first-section {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+  width: 50rem;
+  height: 13rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-header {
+  font-size: 4rem;
+}
+
+.content-button {
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-size: 1rem;
+}
+
+.second-section {
+  height: 100vh;
+}
+
+.footer {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(48, 48, 48);
 }
